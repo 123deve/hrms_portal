@@ -2,6 +2,7 @@ import React from 'react'
 
 const Profile = () => {
   return (
+    <>
     <div className='md:flex p-2 m-6 border-b-2 border-t-2'>
         <div>
           <img
@@ -24,9 +25,17 @@ const Profile = () => {
           <p className='mr-20'>BUSINESS UNIT</p>
           <p className='mr-20'>DEPARTMENT</p>
           <p className='mr-20'>REPORTING MANAGER</p>
-        </div>
+          </div>
         </div>
     </div>
+    <div className='flex p-2 ml-6 border-b-2 md:text-lg text-sm hover:font-normal font-light'>
+    <a className='md:mr-20 mr-4' href='#'>ABOUT</a>
+    <a className='md:mr-20 mr-4' href='#'>PROFILE</a>
+    <a className='md:mr-20 mr-4'href='#'>JOB</a>
+    <a className='md:mr-20 mr-4' href='#'>DOCUMENTS</a>
+    <a className='md:mr-20 mr-4'href='#'>ASSETS</a>
+  </div>
+  </>
   )
 }
 
