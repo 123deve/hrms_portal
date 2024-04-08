@@ -1,9 +1,10 @@
 import React from 'react'
-import JobDetail from './JobDetail'
+import ProfileDetail from './ProfileDetail'
 
 const Profile = () => {
   return (
     <>
+    <div>
     <div className='md:flex p-2 m-6 border-b-2 border-t-2'>
         <div>
           <img
@@ -36,7 +37,8 @@ const Profile = () => {
      <a className='md:mr-20 mr-4' href='#'>DOCUMENTS</a>
      <a className='md:mr-20 mr-4'href='#'>ASSETS</a>
    </div>
-   <JobDetail/>
+   <ProfileDetail/>
+   </div>
    </>
   )
 }
