@@ -5,7 +5,7 @@ import Profile from './component/profile/Profile';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar1/>
       <Profile/>
     </div>
   );
