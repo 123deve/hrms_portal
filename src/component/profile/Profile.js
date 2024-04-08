@@ -1,4 +1,5 @@
 import React from 'react'
+import JobDetail from './JobDetail'
 
 const Profile = () => {
   return (
@@ -35,6 +36,7 @@ const Profile = () => {
      <a className='md:mr-20 mr-4' href='#'>DOCUMENTS</a>
      <a className='md:mr-20 mr-4'href='#'>ASSETS</a>
    </div>
+   <JobDetail/>
    </>
   )
 }
