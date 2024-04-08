@@ -1,5 +1,6 @@
 import React from 'react'
-import ProfileDetail from './ProfileDetail'
+//import ProfileDetail from './ProfileDetail'
+import About from './About'
 
 const Profile = () => {
   return (
@@ -37,7 +38,7 @@ const Profile = () => {
      <a className='md:mr-20 mr-4' href='#'>DOCUMENTS</a>
      <a className='md:mr-20 mr-4'href='#'>ASSETS</a>
    </div>
-   <ProfileDetail/>
+   <About/>
    </div>
    </>
   )
