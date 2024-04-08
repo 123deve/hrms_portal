@@ -1,12 +1,12 @@
 import './App.css';
-import Leave from './component/leave/Leave';
 import Navbar from './component/navbar/Navbar';
+import Profile from './component/profile/Profile';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Leave/>
+      <Profile/>
     </div>
   );
 }
