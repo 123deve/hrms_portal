@@ -1,8 +1,11 @@
 import React from 'react'
+import Profile from './Profile'
 
 const JobDetail = () => {
   return (
     <>
+    <Profile/>
+    <div className='m-56 mt-0'>
     <div className='border-2 md:mt-10 m-6'>
         <h1 className='border-b-2 p-2 m-6 text-sm md:text-lg'>Job Details</h1>
         <div className='md:flex p-2 m-6 mb-10 md:mb-20 mt-6 md:mt-10 text-sm md:text-lg font-light'>
@@ -40,6 +43,7 @@ const JobDetail = () => {
             <p className='mr-20'>LOAN POLICY</p>
             <p className='mr-20'>TIMESHEET POLICY</p>
         </div>
+    </div>
     </div>
     </>
   )

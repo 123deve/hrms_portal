@@ -1,11 +1,13 @@
 import React from 'react'
 //import ProfileDetail from './ProfileDetail'
-import About from './About'
+//import About from './About'
+import Assets from './Assets'
+import { Link } from 'react-router-dom'
 
 const Profile = () => {
   return (
     <>
-    <div>
+    <div className='ml-52 md:mt-0'>
     <div className='md:flex p-2 m-6 border-b-2 border-t-2'>
         <div>
           <img
@@ -24,21 +26,20 @@ const Profile = () => {
             <p className='mr-10'>#1110</p>
           </div>
 
-          <div className='md:flex md:mt-10 mt-4 text-sm md:text-lg font-light'>
+          <div className='md:flex md:mt-10 mt-4 text-sm font-light'>
           <p className='mr-20'>BUSINESS UNIT</p>
           <p className='mr-20'>DEPARTMENT</p>
           <p className='mr-20'>REPORTING MANAGER</p>
         </div>
         </div>
     </div>
-     <div className='flex p-2 ml-6 border-b-2 md:text-lg text-sm hover:font-normal font-light'>
-     <a className='md:mr-20 mr-4' href='#'>ABOUT</a>
-     <a className='md:mr-20 mr-4' href='#'>PROFILE</a>
-     <a className='md:mr-20 mr-4'href='#'>JOB</a>
+     <div className='flex p-2 ml-6 border-b-2 text-sm font-light'>
+     <Link className='md:mr-20 mr-4' to='/about'>ABOUT</Link>
+     <Link className='md:mr-20 mr-4' to='/profileDetail'>PROFILE</Link>
+     <Link className='md:mr-20 mr-4'to='/job'>JOB</Link>
      <a className='md:mr-20 mr-4' href='#'>DOCUMENTS</a>
-     <a className='md:mr-20 mr-4'href='#'>ASSETS</a>
+     <Link className='md:mr-20 mr-4' to='/assets'>ASSETS</Link>
    </div>
-   <About/>
    </div>
    </>
   )

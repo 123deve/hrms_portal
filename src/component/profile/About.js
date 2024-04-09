@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import MySunEditor from '../suneditor/MySunEditor';
+import Profile from './Profile';
 
 const About = () => {
   const [isEditorOpen1, setIsEditorOpen1] = useState(false);
@@ -32,6 +33,8 @@ const About = () => {
 
   return (
     <>
+    <Profile/>
+    <div className='ml-56'>
       <div className='border-2 md:m-4 m-1'>
         <div className='p-2 md:m-6 mb-10 mt-6 text-sm md:text-lg font-light'>
           <p className='mr-20'>About</p>
@@ -57,6 +60,7 @@ const About = () => {
           {isEditorOpen3 && <MySunEditor onCancel={handleCloseEditor3}/>}
         </div>
       </div>
+      </div> 
     </>
   );
 };

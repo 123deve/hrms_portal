@@ -1,8 +1,11 @@
 import React from 'react'
+import Profile from './Profile'
 
 const ProfileDetail = () => {
   return (
     <>
+    <Profile/>
+    <div className='ml-56'>
     <div className='border-2 md:mt-10 m-6'>
         <h1 className='border-b-2 p-2 m-6 text-sm md:text-lg'>PRIMARY DETAILS</h1>
         <div className='md:flex p-2 m-6 mb-10 md:mb-20 mt-6 md:mt-10 text-sm md:text-lg font-light'>
@@ -49,6 +52,7 @@ const ProfileDetail = () => {
             <p className='mr-20'>YEAR OF COMPLETION</p>
             <p className='mr-20'>YEAR OF JOINING</p>
         </div>
+    </div>
     </div>
     </>
   )
