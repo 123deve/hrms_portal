@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom'
 const Profile = () => {
   return (
     <>
-    <div className='ml-52 md:mt-0'>
-    <div className='md:flex p-2 m-6 border-b-2 border-t-2'>
+    <div className='md:mt-0'>
+    <div className='md:flex p-2 border-b-2 border-t-2'>
         <div>
           <img
           className='w-full md:w-3/4'

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Leave = () => {
   return (
-    <div className='ml-56'>
-        <div className='border-b-2'>
-            <ul className='block md:flex px-6 m-4 text-left'>
+    <div>
+        <div>
+            <ul className='block md:flex px-2 py-2 text-left border-b-2'>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>LEAVE</li>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>TIMESHEET</li>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>ATTENDANCE</li>
@@ -14,11 +14,11 @@ const Leave = () => {
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>APPS</li>
             </ul>
         </div>
-        <div className='p-2 border-b-2'>
-            <h2 className='text-left text-lg ml-8 font-thin'>Summary</h2>
+        <div className='px-2 py-2 border-b-2'>
+            <h2 className='text-left text-lg font-thin'>Summary</h2>
         </div>
-        <div className='md:flex justify-between m-4 text-lg md:text-2xl font-thin border-b-2'>
-            <p className='md:ml-6'>Pending leave requests</p>
+        <div className='md:flex justify-between py-4 text-lg md:text-2xl font-thin border-b-2'>
+            <p>Pending leave requests</p>
             <select className='p-2 m-2'>
                 <option className='text-lg'>Jan 2024 - Dec 2024</option>
                 <option className='text-lg'>Jan 2023 - Dec 2023</option>
@@ -26,10 +26,10 @@ const Leave = () => {
             </select>
         </div>
 
-        <h1 className='p-2 m-2 ml-9 text-left md:text-2xl text-lg'>Leave Balances</h1>
+        <h1 className='px-2 py-4 text-left md:text-2xl text-lg'>Leave Balances</h1>
 
         <div className='block md:flex'>
-        <div className='md:ml-8 md:mb-0 mb-4 m-4 md:m-0'>
+        <div className='md:mb-0 mb-4 m-4 md:m-0'>
             <div className='h-64 border-2'>
                 <div className='flex justify-between p-2 m-2'>
                     <h1>Paid Leave</h1>
@@ -47,7 +47,7 @@ const Leave = () => {
             </div>
         </div>
 
-        <div className='md:ml-8 md:mb-0 mb-4 m-4 md:m-0'>
+        <div className='md:mb-0 mb-4 md:m-0'>
             <div className='h-64 border-2'>
             <div className='flex justify-between p-2 m-2'>
                     <h1>Paid Leave</h1>
@@ -66,7 +66,7 @@ const Leave = () => {
         </div>
         </div>
 
-        <h1 className='p-2 m-2 ml-9 text-left md:text-2xl text-lg'>Leave History</h1>
+        <h1 className='px-2 py-4 text-left md:text-2xl text-lg'>Leave History</h1>
         <div className='md:flex p-2 m-2 border-2'>
             <div className='p-2 m-2 border-2'>
                 <select className="p-2 w-full">
