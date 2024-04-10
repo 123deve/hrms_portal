@@ -34,33 +34,31 @@ const About = () => {
   return (
     <>
     <Profile/>
-    <div className='ml-56'>
       <div className='border-2 md:m-4 m-1'>
         <div className='p-2 md:m-6 mb-10 mt-6 text-sm md:text-lg font-light'>
           <p className='mr-20'>About</p>
           {!isEditorOpen1 && (
-            <button className='text-blue-500 border-2 p-2 border-r-4 mt-4' onClick={handleOpenEditor1}>
+            <button className='text-blue-500 border-2 p-2 border-blue-400 mt-4' onClick={handleOpenEditor1}>
               Add your response
             </button>
           )}
           {isEditorOpen1 && <MySunEditor onCancel={handleCloseEditor1}/>}
           <p className='mr-20 mt-10'>What I love about my job?</p>
           {!isEditorOpen2 && (
-            <button className='text-blue-500 border-2 p-2 border-r-4 mt-4' onClick={handleOpenEditor2}>
+            <button className='text-blue-500 border-2 p-2 border-blue-400 mt-4' onClick={handleOpenEditor2}>
               Add your response
             </button>
           )}
           {isEditorOpen2 && <MySunEditor onCancel={handleCloseEditor2}/>}
           <p className='mr-20 mt-10'>My interests and hobbies</p>
           {!isEditorOpen3 && (
-            <button className='text-blue-500 border-2 p-2 border-r-4 mt-4' onClick={handleOpenEditor3}>
+            <button className='text-blue-500 border-2 p-2 border-blue-400 mt-4' onClick={handleOpenEditor3}>
               Add your response
             </button>
           )}
           {isEditorOpen3 && <MySunEditor onCancel={handleCloseEditor3}/>}
         </div>
       </div>
-      </div> 
     </>
   );
 };

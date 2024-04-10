@@ -22,7 +22,7 @@ const MySunEditor = ({  initialTempVar = [] ,onCancel}) => {
   };
 
   return (
-    <Card className="m-0 md:m-10">
+    <Card className="m-0">
       <Row>
         <SunEditor
           setOptions={{
