@@ -1,7 +1,4 @@
 import React from 'react'
-//import ProfileDetail from './ProfileDetail'
-//import About from './About'
-import Assets from './Assets'
 import { Link } from 'react-router-dom'
 
 const Profile = () => {
@@ -10,7 +7,7 @@ const Profile = () => {
     <div className='md:mt-0'>
     <div className='md:flex p-2 border-b-2 border-t-2'>
         <div>
-          <img
+          <img alt='myimage'
           className='w-full md:w-3/4'
           src='https://www.shutterstock.com/image-photo/close-head-shot-confident-serious-260nw-1481322794.jpg'
           />
@@ -37,7 +34,7 @@ const Profile = () => {
      <Link className='md:mr-20 mr-4' to='/about'>ABOUT</Link>
      <Link className='md:mr-20 mr-4' to='/profileDetail'>PROFILE</Link>
      <Link className='md:mr-20 mr-4'to='/job'>JOB</Link>
-     <a className='md:mr-20 mr-4' href='#'>DOCUMENTS</a>
+     <Link className='md:mr-20 mr-4' to='/documents'>DOCUMENTS</Link>
      <Link className='md:mr-20 mr-4' to='/assets'>ASSETS</Link>
    </div>
    </div>

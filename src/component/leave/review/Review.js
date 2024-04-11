@@ -1,11 +1,15 @@
-import React from 'react'
-import Performance from '../performance/Performance'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Performance from '../performance/Performance';
 
 const Review = () => {
   return (
     <>
     <Performance/>
-    <div>Review</div>
+    <div className='flex font-light mt-8'>
+        <Link className='border-2 py-2 px-6 mr-6' to='/performance/review/myperformance'>My Performance reviews</Link>
+        <Link className='border-2 py-2 px-6' to='/performance/review/reviewgiven'>Reviews given to other</Link>
+    </div>
     </>
     
   )

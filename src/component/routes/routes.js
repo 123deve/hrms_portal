@@ -20,6 +20,10 @@ import FeedbackRecieved from '../leave/feedback/FeedbackRecieved';
 import PraiseGiven from '../leave/feedback/PraiseGiven'
 import FeedbackGiven from '../leave/feedback/FeedbackGiven';
 import InternalNotes from '../leave/feedback/InternalNotes';
+import MyPerformance from '../leave/review/MyPerformance';
+import ReviewsGiven from '../leave/review/ReviewsGiven';
+import Process from '../leave/improvement/Process';
+import Completed from '../leave/improvement/Completed';
 
 const routes = [
   { path: '/profile', element: <Profile />, icon: <UserOutlined /> },
@@ -43,6 +47,12 @@ const routes = [
   { path: '/performance/feedback/praisegiven', element: <PraiseGiven /> },
   { path: '/performance/feedback/feedgiven', element: <FeedbackGiven /> },
   { path: '/performance/feedback/internal', element: <InternalNotes /> },
+
+  { path: '/performance/review/myperformance', element: <MyPerformance /> },
+  { path: '/performance/review/reviewgiven', element: <ReviewsGiven /> },
+
+  { path: '/performance/improvement/process', element: <Process /> },
+  { path: '/performance/improvement/completed', element: <Completed /> },
 ];
 
 export default routes;
