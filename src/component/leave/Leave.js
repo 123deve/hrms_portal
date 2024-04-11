@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Leave = () => {
   return (
@@ -8,7 +9,7 @@ const Leave = () => {
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>LEAVE</li>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>TIMESHEET</li>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>ATTENDANCE</li>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>PERFORMANCE</li>
+                <Link to="/performance"><li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>PERFORMANCE</li></Link>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>EXPENSE & TRAVEL</li>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>HELPDESK</li>
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>APPS</li>
