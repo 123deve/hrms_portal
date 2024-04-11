@@ -15,7 +15,7 @@ const Performance = () => {
   };
   return (
     <>
-    <div className='ml-52 p-6 m-2 border-b-2 flex justify-around font-light'>
+    <div className='border-b-2 md:flex block justify-around font-light'>
         <Link>Objective</Link>
         <Link>1:1 Meetings</Link>
         <Link>Continous Feedback</Link>
@@ -23,12 +23,12 @@ const Performance = () => {
         <Link>Competencies & Core values</Link>
         <Link>Performance Improvement Plan (PIP)</Link>
     </div>
-    <div className='ml-52 p-6 m-2 text-3xl'>
+    <div className='md:px-6 px-2 md:m-4 m-2 text-lg md:text-3xl '>
       <h1>1:1 meetings</h1>
-      <p className='text-lg font-light'>
+      <p className='md:text-lg text-sm font-light'>
         Meetings which are created by me or which I am a participant will be shown here.</p>
     </div>
-    <div className='text-center mt-52'>
+    <div className='text-center md:mt-52 mt-30'>
       <i className='fa fa-fw fa-laptop text-9xl'></i>
       <p className='p-4'>
         You don't have any meeting scheduled.Start using 1:1 meetings to have a regular interaction with your managers and peers</p>

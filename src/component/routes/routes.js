@@ -7,6 +7,8 @@ import JobDetail from '../profile/JobDetail';
 import Assets from '../profile/Assets';
 import ProfileDetail from '../profile/ProfileDetail';
 import Documents from "../profile/Document";
+import Performance from "../leave/performance/Performance"
+import MyTeam from '../myteam/MyTeam';
 
 const routes = [
   { path: '/profile', element: <Profile />, icon: <UserOutlined /> },
@@ -16,6 +18,8 @@ const routes = [
   { path: '/assets', element: <Assets />, icon: <SolutionOutlined /> },
   { path: '/profileDetail', element: <ProfileDetail />, icon: <UserOutlined /> },
   { path: '/documents', element: <Documents />, icon: <FileTextOutlined /> },
+  { path: '/performance', element: <Performance />},
+  { path: '/myteam', element: <MyTeam />, icon: <ApartmentOutlined /> },
 ];
 
 export default routes;
