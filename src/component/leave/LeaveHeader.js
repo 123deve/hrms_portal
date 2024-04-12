@@ -10,8 +10,8 @@ const LeaveHeader = () => {
                 <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>ATTENDANCE</li>
                 <Link to="/performance"><li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>PERFORMANCE</li></Link>
                 <Link to="/expense&travel"><li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>EXPENSE & TRAVEL</li></Link>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>HELPDESK</li>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>APPS</li>
+                <Link to="/helpdesk"><li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>HELPDESK</li></Link>
+                <Link to="/application"><li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>APPS</li></Link>
             </ul>
         </div>
   )

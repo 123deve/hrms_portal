@@ -28,6 +28,10 @@ import ExpensesTravel from '../leave/expenses/ExpensesTravel';
 import PendingExpenses from '../leave/expenses/PendingExpenses';
 import PastClaim from '../leave/expenses/PastClaim';
 import AdvanceRequest from '../leave/expenses/AdvanceRequest';
+import HelpDesk from '../leave/helpDesk/HelpDesk';
+import Tickets from '../leave/helpDesk/Tickets';
+import Following from '../leave/helpDesk/Following'
+import Application from '../leave/application/Application'
 
 const routes = [
   { path: '/profile', element: <Profile />, icon: <UserOutlined /> },
@@ -61,6 +65,10 @@ const routes = [
   { path: '/expense&travel/pending', element: <PendingExpenses /> },
   { path: '/expense&travel/past', element: <PastClaim /> },
   { path: '/expense&travel/advance', element: <AdvanceRequest /> },
+  { path: '/helpdesk', element: <HelpDesk /> },
+  { path: '/helpdesk/tickets', element: <Tickets /> },
+  { path: '/helpdesk/follow', element: <Following /> },
+  { path: '/application', element: <Application /> },
 
 ];
 
