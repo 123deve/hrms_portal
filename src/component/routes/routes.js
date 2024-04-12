@@ -24,6 +24,10 @@ import MyPerformance from '../leave/review/MyPerformance';
 import ReviewsGiven from '../leave/review/ReviewsGiven';
 import Process from '../leave/improvement/Process';
 import Completed from '../leave/improvement/Completed';
+import ExpensesTravel from '../leave/expenses/ExpensesTravel';
+import PendingExpenses from '../leave/expenses/PendingExpenses';
+import PastClaim from '../leave/expenses/PastClaim';
+import AdvanceRequest from '../leave/expenses/AdvanceRequest';
 
 const routes = [
   { path: '/profile', element: <Profile />, icon: <UserOutlined /> },
@@ -53,6 +57,11 @@ const routes = [
 
   { path: '/performance/improvement/process', element: <Process /> },
   { path: '/performance/improvement/completed', element: <Completed /> },
+  { path: '/expense&travel', element: <ExpensesTravel /> },
+  { path: '/expense&travel/pending', element: <PendingExpenses /> },
+  { path: '/expense&travel/past', element: <PastClaim /> },
+  { path: '/expense&travel/advance', element: <AdvanceRequest /> },
+
 ];
 
 export default routes;

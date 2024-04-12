@@ -1,20 +1,10 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import LeaveHeader from './LeaveHeader';
 
 const Leave = () => {
   return (
     <div>
-        <div>
-            <ul className='block md:flex px-2 py-2 text-left border-b-2'>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>LEAVE</li>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>TIMESHEET</li>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>ATTENDANCE</li>
-                <Link to="/performance"><li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>PERFORMANCE</li></Link>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>EXPENSE & TRAVEL</li>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>HELPDESK</li>
-                <li className='mr-2 md:mr-10 text-sm font-thin cursor-pointer '>APPS</li>
-            </ul>
-        </div>
+        <LeaveHeader/>
         <div className='px-2 py-2 border-b-2'>
             <h2 className='text-left text-lg font-thin'>Summary</h2>
         </div>
