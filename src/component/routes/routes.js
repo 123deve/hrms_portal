@@ -31,7 +31,12 @@ import AdvanceRequest from '../leave/expenses/AdvanceRequest';
 import HelpDesk from '../leave/helpDesk/HelpDesk';
 import Tickets from '../leave/helpDesk/Tickets';
 import Following from '../leave/helpDesk/Following'
-import Application from '../leave/application/Application'
+import Application from '../leave/application/Application';
+import Organisation from '../organisation/Organisation';
+import EmployeeOrg from '../organisation/EployeeOrg';
+import DocumentOrg from '../organisation/DocumentOrg';
+import EngageOrg from '../organisation/EngageOrg';
+import HiringOrg from '../organisation/HiringOrg';
 
 const routes = [
   { path: '/profile', element: <Profile />, icon: <UserOutlined /> },
@@ -69,6 +74,14 @@ const routes = [
   { path: '/helpdesk/tickets', element: <Tickets /> },
   { path: '/helpdesk/follow', element: <Following /> },
   { path: '/application', element: <Application /> },
+
+  { path: '/organisation', element: <Organisation />, icon: <TeamOutlined /> },
+  { path: '/employee', element: <EmployeeOrg />},
+  { path: '/document', element: <DocumentOrg />},
+  { path: '/engage', element: <EngageOrg />},
+  { path: '/hiring', element: <HiringOrg />},
+  
+  
 
 ];
 

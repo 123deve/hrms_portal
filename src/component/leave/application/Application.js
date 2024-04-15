@@ -9,7 +9,7 @@ const Application = () => {
     <div className='py-4 flex justify-between mt-8'>
       <div>
       <h1 className='text-2xl font-light px-8 py-2'>App Registration</h1>
-      <h1 className='text-sm font-light px-8'>Third party app registration to make best use of Keka</h1>
+      <h1 className='text-sm font-light px-8'>Third party app registration to make best use of portal</h1>
       </div>
     </div>
 
