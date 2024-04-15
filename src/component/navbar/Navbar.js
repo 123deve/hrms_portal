@@ -46,7 +46,7 @@ const DashboardPage = () => {
 <div className={`sidebar ${showNavMenu ? 'block' : 'hidden'} md:block w-[10%] h-screen bg-green-800 text-white justify-between md:border-r-[1px] border-gray-700 md:z-0 z-10`}>
     {/* Header with Logo */}
     <div className="logo hidden md:flex items-center justify-center h-16 border-b border-gray-700">
-      <span className="hidden md:block text-xl font-bold">Keka</span>
+      <span className="hidden md:block text-xl font-bold">Ingenious</span>
     </div>
 
         <nav className='mt-16 md:mt-4'>
@@ -70,7 +70,7 @@ const DashboardPage = () => {
             <SolutionOutlined className="mr-3" />
             My Finances
           </Link>
-          <Link to="/org" className="py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white flex items-center">
+          <Link to="/organisation" className="py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white flex items-center">
             <BankFilled  className="mr-3" />
             Org
           </Link>
@@ -84,7 +84,7 @@ const DashboardPage = () => {
       <div className="flex-1 flex flex-col overflow-hidden ">
         <header className="flex justify-between items-center p-4 bg-green-800 text-white fixed md:w-[89.5%] w-full h-16 z-10">
           <div className="flex items-center">
-            <div className="hidden md:block text-2xl font-extrabold">keka</div>
+            <div className="hidden md:block text-2xl font-extrabold">Ingenious</div>
             <button onClick={toggleNavMenu}>
               <MenuOutlined className="block md:hidden mr-3" />
             </button>
