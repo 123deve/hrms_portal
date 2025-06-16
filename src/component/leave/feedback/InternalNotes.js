@@ -6,7 +6,7 @@ const InternalNotes = () => {
     <>
     <Feedback/>
     <div className='p-8'>
-      <h1 className='text-2xl font-light px-8'>Internal notes</h1>
+      <h1 className='text-2xl font-dark px-8'>Internal notes</h1>
       <h1 className='text-sm font-light px-8'>Below are the internal notes taken by me for others.</h1>
     </div>
     <div className='text-center h-96 border-2'>

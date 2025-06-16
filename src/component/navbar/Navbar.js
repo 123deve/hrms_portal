@@ -14,9 +14,9 @@ const DropdownMenu = () => {
   return (
     <div className="relative">
       <button onClick={toggleMenu} className="text-white focus:outline-none flex items-center">
-        <div className="mr-2 md:block hidden">Vaibhav</div>
+        <div className="mr-2 md:block hidden font-bold">Sujal Sahu</div>
         <UserOutlined className="ml-6 block md:hidden" />
-        <img src={vaibhavImage} alt="Vaibhav" className="w-10 h-10 rounded-full md:block hidden" />
+        <img src={"https://docs.material-tailwind.com/img/face-2.jpg"} alt="Vaibhav" className="w-10 h-10 rounded-full md:block hidden" />
       </button>
       {showMenu && (
         <div className="absolute -left-16 md:right-0 md:mt-4 mt-6 w-36 md:w-48 bg-white rounded-lg shadow-lg py-1">

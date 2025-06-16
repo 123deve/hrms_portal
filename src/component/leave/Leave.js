@@ -10,7 +10,7 @@ const Leave = () => {
         </div>
         <div className='md:flex justify-between py-4 text-lg md:text-2xl font-thin border-b-2'>
             <p>Pending leave requests</p>
-            <select className='p-2 m-2'>
+            <select className='p-2 m-2'> 
                 <option className='text-lg'>Jan 2024 - Dec 2024</option>
                 <option className='text-lg'>Jan 2023 - Dec 2023</option>
                 <option className='text-lg'>Jan 2022 - Dec 2022</option>
@@ -38,7 +38,7 @@ const Leave = () => {
             </div>
         </div>
 
-        <div className='md:mb-0 mb-4 md:m-0'>
+        {/* <div className='md:mb-0 mb-4 md:m-0'>
             <div className='h-64 border-2'>
             <div className='flex justify-between p-2 m-2'>
                     <h1>Paid Leave</h1>
@@ -54,7 +54,7 @@ const Leave = () => {
                 <h1 className='p-2 m-2 font-thin text-sm'>CARRYOVER</h1>
                 <h1 className='p-2 m-2 font-thin text-sm'>ANNUAL QUOTA</h1>
             </div>
-        </div>
+        </div> */}
         </div>
 
         <h1 className='px-2 py-4 text-left md:text-2xl text-lg'>Leave History</h1>

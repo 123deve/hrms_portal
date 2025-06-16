@@ -26,7 +26,7 @@ const MyTeam = () => {
             <h1>Remote clock-in today</h1>
         </div>
     </div>
-    <div className='px-4 py-6 m-2 h-60 w-full border-2'>
+    <div className='px-4 py-6 m-2 h-60 w-full border-2 '>
      <AttendanceCalendar/>
     </div>
     </>

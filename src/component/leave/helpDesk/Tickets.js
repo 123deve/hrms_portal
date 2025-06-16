@@ -17,7 +17,7 @@ const Tickets = () => {
     <HelpDesk/>
     <div className='py-4 flex justify-between'>
       <div>
-      <h1 className='text-2xl font-light px-8 py-2'>Open Tickets</h1>
+      <h1 className='text-2xl font-dark px-8 py-2'>Open Tickets</h1>
       <h1 className='text-sm font-light px-8'>These are your tickets that are yet to be addressed.</h1>
       </div>
       <div>

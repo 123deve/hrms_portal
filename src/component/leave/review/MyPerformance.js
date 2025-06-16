@@ -6,7 +6,7 @@ const MyPerformance = () => {
     <>
     <Review/>
     <div className='py-8'>
-      <h1 className='text-2xl font-light px-6'>My Performance Reviews</h1>
+      <h1 className='text-2xl font-dark px-6'>My Performance Reviews</h1>
       <h1 className='text-sm font-light px-6'>The following are the performance reviews in which I was reviewed.</h1>
     </div>
     <div className='text-center h-96 border-2'>

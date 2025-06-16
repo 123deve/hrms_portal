@@ -7,9 +7,9 @@ const HelpDesk = () => {
   return (
     <>
     <LeaveHeader/>
-    <div className='border-b-2 py-2 mt-4 md:flex block font-light'>
-    <Link className='mr-8 py-2' to="/helpdesk/tickets">My Tickets</Link>
-    <Link className='mr-8 py-2' to="/helpdesk/follow">Following</Link>
+    <div className='border-b-2 py-2 mt-4 md:flex block font-dark'>
+    <Link className='border-2 mr-8 py-2 px-6 hover:border-blue-700' to="/helpdesk/tickets">My Tickets</Link>
+    <Link className='border-2 mr-8 py-2 px-6 hover:border-blue-700' to="/helpdesk/follow">Following</Link>
     </div>
     </>
   )

@@ -20,7 +20,7 @@ function AttendanceCalendar() {
   };
 
   const renderCalendarGrid = () => {
-    const employees = ['Vaibhav', 'Rajveer' ,'Shreya','Anuja','Gourav','Akhilesh'];
+    const employees = ['Sujal','Vaibhav','Rajveer','Shreya','Anuja','Gourav','Akhilesh'];
 
     const daysInMonth = new Date(year, month, 0).getDate();
 

@@ -10,13 +10,13 @@ const Sidebar = () => {
 
   return (
     <>
-      <i className="fa fa-fw fa-bars text-xl ml-2 block md-hidden z-10 fixed" 
+      <i className="fa fa-fw fa-bars text-xl ml-2 block md-hidden z-10 fixed cursor-pointer" 
       onClick={handleBarToggle}></i>
     {!openSidebar && (
       <div className={`h-full md:block md:w-52 fixed z-1 top-0 left-0 overflow-x-hidden pt-1 md:bg-black border-r-2`}>
-    <div className='p-2 cursor-pointer'>
+    <div className='p-2 cursor-pointer color-red'>
     <Link className='py-6 md:px-8 px-0 no-underline text-sm md:text-lg md:text-white'
-      to="/"><i className="fa fa-fw fa-home mr-1 md:text-white"></i> Home</Link>
+      to="/"> <i className="fa fa-fw fa-home mr-1 md:text-white"></i> Home</Link>
     </div>
     <div className='p-2 cursor-pointer'>
     <Link className='py-6 md:px-8 px-0 no-underline text-sm md:text-lg md:text-white'
@@ -49,6 +49,8 @@ const Sidebar = () => {
     </div>
     )}
     </>
+
+
 
     
     // <div style={{ display: 'flex' }}>
